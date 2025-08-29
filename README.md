@@ -1,8 +1,8 @@
 # Product Name SKU Validator for Magento 2
 
-![Magento 2](https://img.shields.io/badge/Magento-2.4%2B-brightgreen)
-![PHP](https://img.shields.io/badge/PHP-8.2%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+[![Magento 2](https://img.shields.io/badge/Magento-2.4%2B-brightgreen)](https://experienceleague.adobe.com/en/docs/commerce#developer-documentation)
+[![PHP](https://img.shields.io/badge/PHP-8.2%2B-blue)](https://www.php.net/docs.php)
+[![License](https://img.shields.io/badge/License-MIT-green)](/LICENSE)
 
 A Magento 2 extension that automatically validates product names and SKUs to prevent special characters, ensuring data integrity and preventing integration issues.
 
