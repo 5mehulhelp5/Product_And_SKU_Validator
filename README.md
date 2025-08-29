@@ -86,5 +86,42 @@ Allowed Characters:
 | SKU contains invalid characters: space      | Replace spaces with - or \_ |
 | Product name contains invalid characters: ® | Use (R) instead             |
 
-![screenshot](https://github.com/Stephenice/Product_And_SKU_Validator/blob/main/Screenshot.jpg)
 ![screenshot](/Screenshot.jpg)
+
+#### Verification
+
+Test the extension by trying to save:
+
+-Valid name: Test Product 123
+
+- Invalid name: Test@Product#
+
+## Support
+
+**Bug Reports & Feature Requests**
+Please use the [GitHub Issues](https://github.com/Stephenice/Product_And_SKU_Validator/issues) page.
+
+**Quick Support**
+
+1. Check troubleshooting section above
+2. Search existing issues
+3. Create new issue with details:
+
+   - Magento version
+   - PHP version
+   - Exact error message
+   - Steps to reproduce
+
+## Changelog
+
+v1.0.0 (Current)
+
+- Initial release
+- Product name validation
+- SKU validation
+- Admin interface integration
+- API operation support
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
