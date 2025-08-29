@@ -1,0 +1,40 @@
+{
+    "name": "stephen_ijeh/product-name-validation",
+    "description": "Magento 2 extension to validate product names and SKUs by preventing special characters during product creation and editing",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "php": "~8.4.0",
+        "magento/framework": ">=100.0.0",
+        "magento/module-catalog": ">=100.0.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "StephenIjeh\\ProductNameValidation\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "keywords": [
+        "magento2",
+        "product",
+        "validation",
+        "sku",
+        "name",
+        "characters",
+        "catalog"
+    ]
+}
+
+Increased organic traffic by improving search visibility.
+
+Higher conversion rates through optimised user experience.
+
+Revenue growth projected in the range of thousands to millions of pounds annually.
