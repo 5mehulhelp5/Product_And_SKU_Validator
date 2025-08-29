@@ -86,4 +86,5 @@ Allowed Characters:
 | SKU contains invalid characters: space      | Replace spaces with - or \_ |
 | Product name contains invalid characters: ® | Use (R) instead             |
 
-(/Screenshot.jpg)
+![screenshot](https://github.com/Stephenice/Product_And_SKU_Validator/blob/main/Screenshot.jpg)
+![screenshot](/Screenshot.jpg)
