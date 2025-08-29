@@ -39,3 +39,31 @@ bin/magento cache:clean
 bin/magento setup:upgrade
 bin/magento cache:clean
 ```
+
+## Usage
+
+### Product Name Rules
+
+Allowed Characters:
+
+- Letters: A-Z, a-z
+- Numbers: 0-9
+- Spaces
+- Symbols: - ' , . : ( ) /
+- Trademarks: Use (C), (R), (TM) instead of special symbols
+
+### SKU Rules
+
+Allowed Characters:
+
+- Letters: A-Z, a-z
+- Numbers: 0-9
+- Hyphen: -
+- Underscore: \_
+
+Examples
+
+| Field        | Valid Example                      | Invalid Example    |
+| ------------ | ---------------------------------- | ------------------ |
+| Product Name | Men's T-Shirt 2.0 (Summer Edition) | Product@Name#2024! |
+| SKU          | TSHIRT-123_BLUE                    | SKU 123#ABC        |
