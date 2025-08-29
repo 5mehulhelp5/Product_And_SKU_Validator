@@ -42,7 +42,7 @@ bin/magento cache:clean
 
 ## Usage
 
-### Product Name Rules
+**Product Name Rules**
 
 Allowed Characters:
 
@@ -52,7 +52,7 @@ Allowed Characters:
 - Symbols: - ' , . : ( ) /
 - Trademarks: Use (C), (R), (TM) instead of special symbols
 
-### SKU Rules
+**SKU Rules**
 
 Allowed Characters:
 
@@ -61,9 +61,18 @@ Allowed Characters:
 - Hyphen: -
 - Underscore: \_
 
-Examples
+**Examples**
 
 | Field        | Valid Example                      | Invalid Example    |
 | ------------ | ---------------------------------- | ------------------ |
 | Product Name | Men's T-Shirt 2.0 (Summer Edition) | Product@Name#2024! |
 | SKU          | TSHIRT-123_BLUE                    | SKU 123#ABC        |
+
+**Steps to Use**
+
+1. Navigate to **Catalog > Products** in Admin
+2. Create new product or edit existing product
+3. Enter product name and SKU following the rules
+4. Click Save - validation occurs automatically
+5. If invalid characters are found, you'll see a clear error message
+
